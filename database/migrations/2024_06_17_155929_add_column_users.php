@@ -22,7 +22,7 @@ class AddColumnUsers extends Migration
             $table->boolean('active')->after('gender');
             $table->date('start_effective')->after('active');
             $table->date('end_effective')->after('active')->nullable();
-            $table->string('signature_path', 150)->after('end_effective');
+            $table->string('signature_path', 150)->after('end_effective')->nullable();
             $table->unsignedBigInteger('created_by')->after('remember_token');
             $table->unsignedBigInteger('updated_by')->after('created_at');
         });
