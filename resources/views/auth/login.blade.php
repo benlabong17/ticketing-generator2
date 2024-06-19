@@ -65,7 +65,7 @@
             @endif
         </div>
         <div class="col-sm-5 text-right">
-            <a href="pages-register.html" class="text-muted">Create an account</a>
+            <a href="{{ route('register') }}" class="text-muted">Create an account</a>
         </div>
     </div>
 </form>
