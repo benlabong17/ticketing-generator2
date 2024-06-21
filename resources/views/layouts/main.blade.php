@@ -57,16 +57,16 @@
         <!-- Start right Content here -->
         <div class="content-page">
             <!-- Start content -->
-            <div class="content">
+            <div class="content" style="background-color: #ffffff;">
                 <div class="container">
                     <!-- Page-Title -->
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="page-header-title">
-                                <h4 class="pull-left page-title">Dashboard</h4>
+                                <h3 class="pull-left page-title">@yield('title')</h3>
                                 <ol class="breadcrumb pull-right">
-                                    <li><a href="#">SPONGE</a></li>
-                                    <li class="active">Dashboard</li>
+                                    <li><a href="#">Forms</a></li>
+                                    <li class="active">@yield('title')</li>
                                 </ol>
                                 <div class="clearfix"></div>
                             </div>
@@ -121,6 +121,9 @@
     <script src="{{ asset('plugins/datatables/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/responsive.bootstrap.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/dataTables.scroller.min.js') }}"></script>
+
+    <!-- Datatable init js -->
+    <script src="{{ asset('pages/datatables.init.js') }}"></script>
 
     <!-- Sweet-Alert  -->
     <script src="{{ asset('plugins/bootstrap-sweetalert/sweet-alert.min.js') }}"></script>

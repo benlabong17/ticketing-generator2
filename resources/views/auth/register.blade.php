@@ -1,10 +1,6 @@
 @extends('layouts.login')
 
-@section('title', 'LOGIN')
-
-@section('styles')
-@include('layouts.styles.form')
-@endsection
+@section('title', 'REGISTER')
 
 @section('form')
 <form class="form-horizontal m-t-20" method="POST" action="{{ route('register') }}">
@@ -67,8 +63,4 @@
         </div>
     </div>
 </form>
-@endsection
-
-@section('scripts')
-@include('layouts.scripts.form')
 @endsection

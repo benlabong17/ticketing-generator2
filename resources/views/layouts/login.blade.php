@@ -39,20 +39,13 @@
                 <h3 class="text-center m-t-0 m-b-30">
                     <span class=""><img src="assets/images/logo_dark.png" alt="logo" height="32"></span>
                 </h3>
-                <h4 class="text-muted text-center m-t-0"><b>Sign In</b></h4>
+                <h4 class="text-muted text-center m-t-0"><b>@yield('title')</b></h4>
 
                 @yield('form')
             </div>
 
         </div>
     </div>
-
-    <!-- Form Plugin js -->
-    <script src="{{ asset('plugins/timepicker/bootstrap-timepicker.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-maxlength/bootstrap-maxlength.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }}" type="text/javascript"></script>
 
     <!-- jQuery  -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
@@ -69,9 +62,12 @@
 
     <script src="{{ asset('plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
 
-    <!-- Sweet-Alert  -->
-    <script src="{{ asset('plugins/bootstrap-sweetalert/sweet-alert.min.js') }}"></script>
-    <script src="{{ asset('pages/sweet-alert.init.js') }}"></script>
+    <!-- Form Plugin js -->
+    <script src="{{ asset('plugins/timepicker/bootstrap-timepicker.js') }}"></script>
+    <script src="{{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js') }}"></script>
+    <script src="{{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="{{ asset('plugins/bootstrap-maxlength/bootstrap-maxlength.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }}" type="text/javascript"></script>
 
     <!-- Parsleyjs -->
     <script type="text/javascript" src="{{ asset('plugins/parsleyjs/parsley.min.js') }}"></script>
@@ -89,5 +85,6 @@
     @yield('scripts')
 
 </body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </html>

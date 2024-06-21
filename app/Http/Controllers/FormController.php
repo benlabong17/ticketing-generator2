@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class FormController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -21,9 +21,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function pelaporanindex()
     {
-        $title = 'Dashboard';
-        return view('home', ['title' => $title]);
+        $title = 'Pelaporan';
+        return view('form.pelaporan.index', ['title' => $title]);
     }
 }

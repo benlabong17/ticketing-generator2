@@ -2,9 +2,6 @@
 
 @section('title', 'LOGIN')
 
-@section('styles')
-@include('layouts.styles.form')
-@endsection
 
 @section('form')
 <form class="form-horizontal m-t-20" method="POST" action="{{ route('login') }}">
@@ -69,8 +66,4 @@
         </div>
     </div>
 </form>
-@endsection
-
-@section('scripts')
-@include('layouts.scripts.form')
 @endsection

@@ -26,5 +26,7 @@ Route::get('/', function () {
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
-    // Add other routes that require authentication here
+    // FORMS
+    // - PELAPORAN
+    Route::get('/form/pelaporan', 'FormController@pelaporanindex')->name('form-pelaporan-index');
 });
