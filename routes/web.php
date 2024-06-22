@@ -29,4 +29,5 @@ Route::middleware(['auth'])->group(function () {
     // FORMS
     // - PELAPORAN
     Route::get('/form/pelaporan', 'FormController@pelaporanindex')->name('form-pelaporan-index');
+    Route::get('/form/pelaporanadd', 'FormController@pelaporanadd')->name('form-pelaporan-add');
 });

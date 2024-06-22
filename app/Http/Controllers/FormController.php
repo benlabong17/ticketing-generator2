@@ -26,4 +26,10 @@ class FormController extends Controller
         $title = 'Pelaporan';
         return view('form.pelaporan.index', ['title' => $title]);
     }
+
+    public function pelaporanadd()
+    {
+        $title = 'Tambah Pelaporan';
+        return view('form.pelaporan.add', ['title' => $title]);
+    }
 }

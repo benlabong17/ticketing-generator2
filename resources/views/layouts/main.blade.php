@@ -99,15 +99,19 @@
     <script src="{{ asset('js/fastclick.js') }}"></script>
     <script src="{{ asset('js/jquery.slimscroll.js') }}"></script>
     <script src="{{ asset('js/jquery.blockUI.js') }}"></script>
-    <script src="{{ asset('js/waves.js') }}"></script>
+    <!-- <script src="{{ asset('js/waves.js') }}"></script> -->
     <script src="{{ asset('js/wow.min.js') }}"></script>
     <script src="{{ asset('js/jquery.nicescroll.js') }}"></script>
     <script src="{{ asset('js/jquery.scrollTo.min.js') }}"></script>
 
     <script src="{{ asset('plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+
+    <!-- <script src="{{ asset('pages/dashborad.js') }}"></script> -->
+    <script src="{{ asset('js/app2.js') }}"></script>
 
     <!-- Datatables-->
-    <script src="{{ asset('plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <!-- <script src="{{ asset('plugins/datatables/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/dataTables.bootstrap.js') }}"></script>
     <script src="{{ asset('plugins/datatables/dataTables.buttons.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/buttons.bootstrap.min.js') }}"></script>
@@ -120,41 +124,41 @@
     <script src="{{ asset('plugins/datatables/dataTables.keyTable.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('plugins/datatables/responsive.bootstrap.min.js') }}"></script>
-    <script src="{{ asset('plugins/datatables/dataTables.scroller.min.js') }}"></script>
+    <script src="{{ asset('plugins/datatables/dataTables.scroller.min.js') }}"></script> -->
 
     <!-- Datatable init js -->
-    <script src="{{ asset('pages/datatables.init.js') }}"></script>
+    <!-- <script src="{{ asset('pages/datatables.init.js') }}"></script> -->
 
     <!-- Sweet-Alert  -->
-    <script src="{{ asset('plugins/bootstrap-sweetalert/sweet-alert.min.js') }}"></script>
-    <script src="{{ asset('pages/sweet-alert.init.js') }}"></script>
+    <!-- <script src="{{ asset('plugins/bootstrap-sweetalert/sweet-alert.min.js') }}"></script>
+    <script src="{{ asset('pages/sweet-alert.init.js') }}"></script> -->
 
     <!-- Form Plugin js -->
-    <script src="{{ asset('plugins/timepicker/bootstrap-timepicker.js') }}"></script>
+    <!-- <script src="{{ asset('plugins/timepicker/bootstrap-timepicker.js') }}"></script>
     <script src="{{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js') }}"></script>
     <script src="{{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
     <script src="{{ asset('plugins/bootstrap-maxlength/bootstrap-maxlength.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js') }}" type="text/javascript"></script> -->
 
     <!-- Parsleyjs -->
-    <script type="text/javascript" src="{{ asset('plugins/parsleyjs/parsley.min.js') }}"></script>
+    <!-- <script type="text/javascript" src="{{ asset('plugins/parsleyjs/parsley.min.js') }}"></script> -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(document).ready(function() {
             $('form').parsley();
         });
-    </script>
-
-    <script src="{{ asset('js/app.js') }}"></script>
-
-    <script src="{{ asset('pages/dashborad.js') }}"></script>
-    <script src="{{ asset('js/app2.js') }}"></script>
+    </script> -->
 
     <!-- Additional Script-->
     @yield('scripts')
 
+
+
 </body>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
 
 </html>

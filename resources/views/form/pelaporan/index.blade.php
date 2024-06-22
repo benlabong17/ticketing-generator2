@@ -5,8 +5,10 @@
 @section('content')
 <div class="row">
     <div class="col-md-12">
-        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light"> <i class="ti-filter"></i> Filter Pencarian </button>
-        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light"> + Buat Pelaporan </button>
+        <!-- <button type="button" class="btn btn-primary btn-sm waves-effect waves-light"> <i class="ti-filter"></i> Filter Pencarian </button> -->
+        <!-- <button type="button" class="btn btn-primary btn-sm waves-effect waves-light"> + Buat Pelaporan </button> -->
+        <a href="{{ route('form-pelaporan-add') }}" class="btn btn-primary btn-sm waves-effect waves-light"> <i class="ti-filter"></i> Filter Pencarian </a>
+        <a href="{{ route('form-pelaporan-add') }}" class="btn btn-primary btn-sm waves-effect waves-light"> + Buat Pelaporan </a>
     </div>
 
     <div class="col-md-12">
