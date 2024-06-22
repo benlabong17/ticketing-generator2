@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>{{ config('app.name', 'SPONGE') }} @yield('title')</title>
+    <title>{{ config('app.name', 'SPONGE') }} - @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
@@ -29,8 +29,8 @@
 
 
 <body>
-
     <!-- Begin page -->
+    <!-- <div class="accountbg" style="background-image: url('{{ asset('images/background_page.png') }}');"></div> -->
     <div class="accountbg"></div>
     <div class="wrapper-page">
         <div class="panel panel-color panel-primary panel-pages">
